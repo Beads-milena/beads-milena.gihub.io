@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+.meny {
+	width: 100%;
+	height: 470px;
+	background-image: url(photo/VgkcE_gVhhg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-position: center center;*/
+}
+.shadow {
+	background: rgba(0,0,0,0.3);
+	height: 470px;
+	width:100%;
+	display:flex;
+	text-align:center;
+	flex-direction:column;
+}
+.h1 {
+	height: 150px;
+	font-family: 'jomhuria', cursive;
+	font-size: 120px;
+	color: #8d9973;
+	font-weight: 300;
+	
+	text-shadow: 2px 2px 2px black,  0 0 2em black;
+}
+.info {
+	color: white;
+	font-size: 55px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+.text {
+	margin: 0 auto;
+	width: 300px;
+}
+.div_link {
+	height: 65px;
+}
+.link {
+	color: #111111;
+	border-radius: 25px;
+	font-size: 40px;
+	background-color: #8d9973;
+	text-align: center;
+	vertical-align: middle;
+	width: 250px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.link p{
+	margin-top: 7px;
+}
+a {
+	text-decoration: none;
+}
+main {
+	height: 100%;
+	background: #E7E2DA;
+}
+.photo {
+	/*font-family: 'NotoSans-Regular', cursive;*/
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.photochki {
+	height: 450px;
+}
+.ordinary_photo {
+	margin-top: 20px;
+	margin-bottom: 0;
+	width: 425px;
+	height: 375px;
+}
+.ordinary_text {
+	width: 425px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 35px;
+	padding-top:5px;
+	background-color: white;
+}
+.ordinary_photo img{
+	width: 100%;
+	height: 100%;
+}
+/*.big_photo {
+
+}*/ 
